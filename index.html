@@ -1,34 +1,41 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Formulairet</title>
+    <title>Formulaire</title>
 </head>
 <body>
-    <h1>Formualire d'inscription</h1>
-    <form method="get">
-        <label>Nom:</label><br>
-        <input type="text" name="nom" required><br><br>
 
-        <label>Email:</label><br>
-        <input type="email" name="email" required><br><br>
+<h1>Formulaire d'inscription</h1>
 
-        <label>Mot de passe:</label><br>
-        <input type="password" name="mdp"><br><br>
+<form method="get">
 
-        <label>Age:</label><br>
-        <input type="number" name="age"><br><br>
+    <label>Nom:</label><br>
+    <input type="text" name="nom" required><br><br>
 
-        <label>Sexe:</label><br>
-        <input type="radio" name="sexe" value="homme">Homme 
-        <input type="radio" name="sexe" value="femme">Femme <br><br>
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
 
-        <label>Message:</label><br>
-        <textarea name="message" ></textarea><br><br>
+    <label>Mot de passe:</label><br>
+    <input type="password" name="mdp"><br><br>
 
-        <input type="submit" value="envoyer" formaction="upgrade.html">
-        <input type="reset" value="effacer" >
-    </form>
-    
+    <label>Age:</label><br>
+    <input type="number" name="age"><br><br>
+
+    <label>Sexe:</label><br>
+    <input type="radio" name="sexe" value="homme"> Homme
+    <input type="radio" name="sexe" value="femme"> Femme<br><br>
+
+    <label>Message:</label><br>
+    <textarea name="message"></textarea><br><br>
+
+    <!-- Bouton envoyer → autre page -->
+    <input type="submit" value="Envoyer" formaction="upgrade.html">
+
+    <!-- Bouton effacer -->
+    <input type="reset" value="Effacer">
+
+</form>
+
 </body>
 </html>
